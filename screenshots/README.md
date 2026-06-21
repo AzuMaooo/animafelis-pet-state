@@ -41,7 +41,7 @@ State is derived from current stats each time an action is taken:
 
 | Happy | Sad | Hungry | Tired |
 |-------|-----|--------|-------|
-| ![Happy state](screenshots/happy.png) | ![Sad state](screenshots/sad.png) | ![Hungry state](screenshots/hungry.png) | ![Tired state](screenshots/tired.png) |
+| ![Happy state](screenshots/Happy.png) | ![Sad state](screenshots/Sad.png) | ![Hungry state](screenshots/Hungry.png) | ![Tired state](screenshots/Tired.png) |
 
 ## Roadmap
 
