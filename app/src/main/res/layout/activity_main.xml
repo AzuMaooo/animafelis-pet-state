@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#1a1a2e"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvPetEmoji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="😺"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/tvPetState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="HAPPY"
+        android:textColor="#e8b4f8"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Hunger"
+        android:textColor="#e8b4f8"
+        android:textSize="14sp" />
+
+    <ProgressBar
+        android:id="@+id/pbHunger"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="40"
+        android:progressTint="#e8b4f8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Happiness"
+        android:textColor="#e8b4f8"
+        android:textSize="14sp" />
+
+    <ProgressBar
+        android:id="@+id/pbHappiness"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="40"
+        android:progressTint="#e8b4f8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Energy"
+        android:textColor="#e8b4f8"
+        android:textSize="14sp" />
+
+    <ProgressBar
+        android:id="@+id/pbEnergy"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="40"
+        android:progressTint="#e8b4f8" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/btnFeed"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:text="Feed"
+            android:textSize="13sp"
+            android:backgroundTint="#e8b4f8"
+            android:textColor="#1a1a2e" />
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:text="Play"
+            android:textSize="13sp"
+            android:backgroundTint="#e8b4f8"
+            android:textColor="#1a1a2e" />
+
+        <Button
+            android:id="@+id/btnRest"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:text="Rest"
+            android:textSize="13sp"
+            android:backgroundTint="#e8b4f8"
+            android:textColor="#1a1a2e" />
+
+        <Button
+            android:id="@+id/btnIgnore"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:text="Ignore"
+            android:textSize="13sp"
+            android:backgroundTint="#e8b4f8"
+            android:textColor="#1a1a2e" />
+
+    </LinearLayout>
+
+</LinearLayout>
